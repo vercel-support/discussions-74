@@ -23,13 +23,27 @@ module.exports = {
   },
   async redirects() {
     return [
-{
+  {
       "source": "/abc",
       "has": [
         {
           "type": "header",
           "key": "x-vercel-ip-country",
           "value": "GB"
+        }
+      ],
+      "destination": "/",
+      "permanent": false
+    }
+    ]
+  },
+    {
+      "source": "/def",
+      "has": [
+        {
+          "type": "header",
+          "key": "x-matched-path",
+          "value": "/def"
         }
       ],
       "destination": "/",
