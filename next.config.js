@@ -50,5 +50,5 @@ module.exports = {
       "permanent": false
     }
     ]
-  }
+  },
 }
