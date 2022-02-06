@@ -38,12 +38,12 @@ module.exports = {
     ]
   },
     {
-      "source": "/def",
+      "source": "/xyz",
       "has": [
         {
           "type": "header",
           "key": "x-matched-path",
-          "value": "/def"
+          "value": "/xyz"
         }
       ],
       "destination": "/",
