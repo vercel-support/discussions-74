@@ -42,7 +42,7 @@ module.exports = {
             type: 'header',
             key: 'User-Agent',
             value:
-              'Mozilla/5.0'
+              '(.*Mozilla.*)',
           }
       ],
       "destination": "/",
