@@ -36,13 +36,14 @@ module.exports = {
       "permanent": false
     },
     {
-      "source": "/:path",
+      "source": "/xyz",
       "has": [
-        {
-          "type": "header",
-          "key": "x-matched-path",
-          "value": "/404"
-        }
+          {
+            type: 'header',
+            key: 'User-Agent',
+            value:
+              'Mozilla/5.0'
+          }
       ],
       "destination": "/",
       "permanent": false
