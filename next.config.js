@@ -34,9 +34,8 @@ module.exports = {
       ],
       "destination": "/",
       "permanent": false
-    }
-    ]
-  },
+    },
+    ],
     {
       "source": "/xyz",
       "has": [
@@ -49,6 +48,5 @@ module.exports = {
       "destination": "/",
       "permanent": false
     }
-    ]
-  },
+  }
 }
