@@ -15,7 +15,7 @@ export default function About() {
         </p>
         <p>
           To check the response headers of this page, open the Network tab
-          inside your browser inspector.
+          inside your browser inspector. Perhaps we needed a more quantifiable change?
         </p>
 
         <Link href="/">
