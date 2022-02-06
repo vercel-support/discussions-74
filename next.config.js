@@ -36,12 +36,12 @@ module.exports = {
       "permanent": false
     },
     {
-      "source": "/xyz",
+      "source": "/:path",
       "has": [
         {
           "type": "header",
           "key": "x-matched-path",
-          "value": "/xyz"
+          "value": "/404"
         }
       ],
       "destination": "/",
