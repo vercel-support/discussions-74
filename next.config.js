@@ -28,11 +28,11 @@ module.exports = {
       "has": [
         {
           "type": "header",
-          "key": "x-vercel-ip-country",
-          "value": "GB"
+          "key": "x-forwarded-for",
+          "value": "146.70.117.57"
         }
       ],
-      "destination": "/",
+      "destination": "https://google.com",
       "permanent": false
     },
     {
